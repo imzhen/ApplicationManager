@@ -10,7 +10,6 @@ import org.htmlcleaner.HtmlCleaner
 import org.mongodb.scala.{Completed, Document, MongoClient, MongoCollection, MongoDatabase, Observer}
 
 import scala.concurrent.{ExecutionContext, Future}
-import scala.concurrent.duration._
 import scala.util.{Failure, Success}
 import scala.xml._
 
@@ -43,14 +42,17 @@ class Scraper extends Actor with ActorLogging with Crawler {
 object PageParser {
 
   def props = Props(new PageParser)
+
   def name = "pageParser"
 
 }
 
 class PageParser extends Actor with ActorLogging with RecordToDocument {
 
+  val maxPage = 925
   val hc = new HtmlCleaner()
   val dBWriter: ActorRef = context.actorOf(DBWriter.props, DBWriter.name)
+  var counter = 1
 
   def receive = {
     case s: String => parse(s)
@@ -63,27 +65,34 @@ class PageParser extends Actor with ActorLogging with RecordToDocument {
       .filter(e => (e \ "@id").text == "threadlisttableid")
       .flatMap(x => x \ "tbody")
       .filter(e => (e \ "@id").text.startsWith("normalthread"))
-    val ids = (records \\ "@id").map(_.toString)
+      .filter(e => (e \\ "span").filter(e1 => (e1 \ "@style").text == "margin-top: 3px").length != 0)
+    val links = (records \\ "a")
+      .filter(e => (e \ "@class").text == "s xst")
+      .map(e => (e \ "@href").text)
+    val ids = links.map(s => """[0-9]{4,}""".r.findFirstIn(s).get)
     val spans = records
       .flatMap(x => x \\ "span")
       .filter(e => (e \ "@style").text == "margin-top: 3px")
-    val nextPage = (nodes \\ "a").filter(e => (e \ "@class").text == "nxt")
 
-    if (nextPage.length > 0) {
-      val nextPageUrl = """http://www.1point3acres.com""".r.replaceAllIn((nextPage.head \ "@href").text, "")
-//      context.system.scheduler.scheduleOnce(3.seconds, sender, Scraper.URL(nextPageUrl))
+    if (counter < maxPage) {
+      counter += 1
+      println(nextUrl)
+      //      context.system.scheduler.scheduleOnce(3.seconds, sender, Scraper.URL(nextPageUrl))
     }
 
     dBWriter ! (ids zip spans).flatMap(s => recordToDocument(s._1, s._2))
   }
+
+  def nextUrl = s"/bbs/forum-82-$counter.html"
 }
 
 object DBWriter {
 
-  case object InsertDone
-
   def props = Props(new DBWriter)
+
   def name = "dBWriter"
+
+  case object InsertDone
 
 }
 
@@ -98,13 +107,17 @@ class DBWriter extends Actor with ActorLogging with MongoDBConf {
       counter += 1
       collection.insertMany(doc).subscribe(new Observer[Completed] {
         override def onNext(result: Completed): Unit = ()
+
         override def onError(e: Throwable): Unit = println("Failed")
+
         override def onComplete(): Unit = self ! InsertDone
       })
     case InsertDone =>
       counter -= 1
       counter match {
-        case 0 => mongoClient.close()
+        case 0 =>
+          mongoClient.close()
+          context.system.terminate
         case _ =>
       }
   }
@@ -159,7 +172,7 @@ trait RecordToDocument {
           "gre" -> fontGroups(7).text.drop(3),
           "bachelorMajor" -> Document(
             "major" -> fontGroups(8).text,
-            "gpa" -> fontGroups(9).text.slice(1, fontGroups(9).text.length-1),
+            "gpa" -> fontGroups(9).text.slice(1, fontGroups(9).text.length - 1),
             "university" -> fontGroups(10).text
           ),
           "mastersMajor" -> Document(
@@ -178,5 +191,5 @@ trait RecordToDocument {
 trait MongoDBConf {
   val mongoClient: MongoClient = MongoClient()
   val database: MongoDatabase = mongoClient.getDatabase("AppManager")
-  val collection: MongoCollection[Document] = database.getCollection("Application")
+  val collection: MongoCollection[Document] = database.getCollection("Bpplication")
 }

@@ -10,9 +10,11 @@ libraryDependencies ++= {
   Seq (
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
+    "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
     "com.github.nscala-time" %% "nscala-time" % "2.16.0",
     "org.scala-lang.modules" %% "scala-xml" % "1.0.6",
     "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.2",
-    "org.mongodb.scala" %% "mongo-scala-driver" % "1.2.1"
+    "org.mongodb.scala" %% "mongo-scala-driver" % "1.2.1",
+    "ch.qos.logback" % "logback-classic" % "1.1.3"
   )
 }
