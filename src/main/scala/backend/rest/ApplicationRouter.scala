@@ -21,9 +21,10 @@ object ApplicationRouter {
 
   case class Application(time: DateTime, company: Company, status: CurrentStatus, job: Job)
 //  It should be a filter to get a list of applications
-  case class GetApplications()
+  case class GetApplications(timeRange: Option[(DateTime, DateTime)], companyName: Option[String],
+                             jobTag: Option[String], status: Option[CurrentStatus])
 
-  case class CreateApplication(time: DateTime, company: Company, status: CurrentStatus, job: Job, hashcode: String)
+  case class CreateApplication(time: DateTime, company: Company, status: CurrentStatus, job: Job)
   case class UpdateApplication(time: DateTime, status: CurrentStatus)
 }
 
@@ -33,10 +34,14 @@ class ApplicationRouter extends Actor {
   import ApplicationWriter._
   import CurrentStatus._
 
-  def createApplication(application: Application) = context.actorOf(props(application), name(application))
+  def calculateHashcode(application: Application): String = ???
+  def createApplication(application: Application) = context.actorOf(
+    props(application),
+    calculateHashcode(application)
+  )
 
   def receive = {
-    case CreateApplication(time: DateTime, company: Company, status: CurrentStatus, job: Job, hashcode: String) =>
+    case CreateApplication(time: DateTime, company: Company, status: CurrentStatus, job: Job) =>
       ???
   }
 }

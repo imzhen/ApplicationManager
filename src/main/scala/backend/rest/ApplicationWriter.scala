@@ -10,7 +10,6 @@ import ApplicationRouter._
 object ApplicationWriter {
 
   def props(application: Application) = Props(new ApplicationWriter(application))
-  def name(application: Application) = application.hashcode
 }
 
 class ApplicationWriter(application: Application) extends Actor{
