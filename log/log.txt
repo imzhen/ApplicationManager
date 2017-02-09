@@ -1,0 +1,382 @@
+2017-02-08 12:22:44,010,Slf4jLogger started
+2017-02-08 12:22:44,020,logger log1-Slf4jLogger started
+2017-02-08 12:22:44,024,Default Loggers started
+2017-02-08 12:22:44,120,Initializing AkkaSSLConfig extension...
+2017-02-08 12:22:44,127,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@4567cf27
+2017-02-08 12:22:44,222,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:22:44,357,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:22:44,435,Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2017-02-08 12:22:44,435,Checking status of localhost:27017
+2017-02-08 12:22:44,438,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1057487}
+2017-02-08 12:22:44,441,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+2017-02-08 12:22:44,997,Resolving www.1point3acres.com before connecting
+2017-02-08 12:22:45,017,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#467766622]
+2017-02-08 12:22:45,202,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:22:45,387,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:22:47,043,Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2017-02-08 12:22:47,057,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:22}] to server localhost:27017
+2017-02-08 12:22:47,077,Command execution completed with status true
+2017-02-08 12:22:47,080,Asynchronous insert completed
+2017-02-08 12:22:47,083,Closed connection [connectionId{localValue:2, serverValue:22}] to localhost:27017 because the pool has been closed.
+2017-02-08 12:22:47,083,Closing connection connectionId{localValue:2, serverValue:22}
+2017-02-08 12:22:47,085,Closing connection connectionId{localValue:1, serverValue:21}
+2017-02-08 12:22:47,095,shutting down: StandardOutLogger started
+2017-02-08 12:24:18,620,Slf4jLogger started
+2017-02-08 12:24:18,630,logger log1-Slf4jLogger started
+2017-02-08 12:24:18,633,Default Loggers started
+2017-02-08 12:24:18,734,Initializing AkkaSSLConfig extension...
+2017-02-08 12:24:18,740,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@131e945d
+2017-02-08 12:24:18,827,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:24:18,948,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:24:19,020,Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+2017-02-08 12:24:19,020,Checking status of localhost:27017
+2017-02-08 12:24:19,023,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=853287}
+2017-02-08 12:24:19,025,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+2017-02-08 12:24:19,726,Resolving www.1point3acres.com before connecting
+2017-02-08 12:24:19,742,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-937223453]
+2017-02-08 12:24:19,755,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:24:19,960,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:24:21,434,Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2017-02-08 12:24:21,446,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:24}] to server localhost:27017
+2017-02-08 12:24:21,471,Command execution completed with status true
+2017-02-08 12:24:21,474,Asynchronous insert completed
+2017-02-08 12:24:21,476,Closed connection [connectionId{localValue:2, serverValue:24}] to localhost:27017 because the pool has been closed.
+2017-02-08 12:24:21,477,Closing connection connectionId{localValue:2, serverValue:24}
+2017-02-08 12:24:21,478,Closing connection connectionId{localValue:1, serverValue:23}
+2017-02-08 12:24:21,487,shutting down: StandardOutLogger started
+2017-02-08 12:27:04,922,Slf4jLogger started
+2017-02-08 12:27:04,931,logger log1-Slf4jLogger started
+2017-02-08 12:27:04,934,Default Loggers started
+2017-02-08 12:27:05,043,Initializing AkkaSSLConfig extension...
+2017-02-08 12:27:05,051,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@7e7042ba
+2017-02-08 12:27:05,114,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:27:05,234,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:27:05,312,Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2017-02-08 12:27:05,312,Checking status of localhost:27017
+2017-02-08 12:27:05,314,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=878557}
+2017-02-08 12:27:05,317,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+2017-02-08 12:27:05,844,Resolving www.1point3acres.com before connecting
+2017-02-08 12:27:05,861,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-290069597]
+2017-02-08 12:27:06,043,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:27:06,225,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:27:07,688,Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2017-02-08 12:27:07,702,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:26}] to server localhost:27017
+2017-02-08 12:27:07,723,Command execution completed with status true
+2017-02-08 12:27:07,727,Asynchronous insert completed
+2017-02-08 12:27:07,730,Closed connection [connectionId{localValue:2, serverValue:26}] to localhost:27017 because the pool has been closed.
+2017-02-08 12:27:07,730,Closing connection connectionId{localValue:2, serverValue:26}
+2017-02-08 12:27:07,732,Closing connection connectionId{localValue:1, serverValue:25}
+2017-02-08 12:27:07,744,shutting down: StandardOutLogger started
+2017-02-08 12:28:42,308,Slf4jLogger started
+2017-02-08 12:28:42,316,logger log1-Slf4jLogger started
+2017-02-08 12:28:42,320,Default Loggers started
+2017-02-08 12:28:42,414,Initializing AkkaSSLConfig extension...
+2017-02-08 12:28:42,419,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@2c6b62af
+2017-02-08 12:28:42,489,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:28:42,636,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:28:42,709,Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2017-02-08 12:28:42,709,Checking status of localhost:27017
+2017-02-08 12:28:42,712,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1065446}
+2017-02-08 12:28:42,714,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+2017-02-08 12:28:43,269,Resolving www.1point3acres.com before connecting
+2017-02-08 12:28:43,288,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#1533802382]
+2017-02-08 12:28:43,302,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:28:43,484,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:28:45,411,Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+2017-02-08 12:28:45,423,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:28}] to server localhost:27017
+2017-02-08 12:28:45,443,Command execution completed with status true
+2017-02-08 12:28:45,447,Asynchronous insert completed
+2017-02-08 12:28:45,449,Closed connection [connectionId{localValue:2, serverValue:28}] to localhost:27017 because the pool has been closed.
+2017-02-08 12:28:45,449,Closing connection connectionId{localValue:2, serverValue:28}
+2017-02-08 12:28:45,451,Closing connection connectionId{localValue:1, serverValue:27}
+2017-02-08 12:28:45,460,shutting down: StandardOutLogger started
+2017-02-08 12:34:42,489,Slf4jLogger started
+2017-02-08 12:34:42,507,logger log1-Slf4jLogger started
+2017-02-08 12:34:42,512,Default Loggers started
+2017-02-08 12:34:42,670,Initializing AkkaSSLConfig extension...
+2017-02-08 12:34:42,682,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@5c54d491
+2017-02-08 12:34:42,895,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:34:43,061,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:34:43,155,Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2017-02-08 12:34:43,155,Checking status of localhost:27017
+2017-02-08 12:34:43,158,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=680580}
+2017-02-08 12:34:43,161,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.7 ms, state=CONNECTED}]
+2017-02-08 12:34:44,031,Resolving www.1point3acres.com before connecting
+2017-02-08 12:34:44,055,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-249382662]
+2017-02-08 12:34:44,312,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:34:44,491,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:34:59,603,Checking status of localhost:27017
+2017-02-08 12:35:22,338,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=442.7 ms, state=CONNECTED}]
+2017-02-08 12:35:46,510,Checking status of localhost:27017
+2017-02-08 12:35:49,585,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=827.7 ms, state=CONNECTED}]
+2017-02-08 12:36:32,136,Checking status of localhost:27017
+2017-02-08 12:36:50,732,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4240.7 ms, state=CONNECTED}]
+2017-02-08 12:37:00,931,Checking status of localhost:27017
+2017-02-08 12:37:03,900,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3824.8 ms, state=CONNECTED}]
+2017-02-08 12:37:14,443,Checking status of localhost:27017
+2017-02-08 12:37:17,379,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3490.7 ms, state=CONNECTED}]
+2017-02-08 12:37:27,902,Checking status of localhost:27017
+2017-02-08 12:37:31,179,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3202.2 ms, state=CONNECTED}]
+2017-02-08 12:37:49,814,Checking status of localhost:27017
+2017-02-08 12:37:49,837,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2566.3 ms, state=CONNECTED}]
+2017-02-08 12:39:28,310,Checking status of localhost:27017
+2017-02-08 12:39:29,219,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2229.3 ms, state=CONNECTED}]
+2017-02-08 12:39:40,992,Checking status of localhost:27017
+2017-02-08 12:39:41,429,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1787.7 ms, state=CONNECTED}]
+2017-02-08 12:40:05,017,Checking status of localhost:27017
+2017-02-08 12:40:05,040,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1434.6 ms, state=CONNECTED}]
+2017-02-08 12:40:19,884,Checking status of localhost:27017
+2017-02-08 12:40:20,463,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1147.8 ms, state=CONNECTED}]
+2017-02-08 12:40:32,433,Checking status of localhost:27017
+2017-02-08 12:40:32,992,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=922.5 ms, state=CONNECTED}]
+2017-02-08 12:41:17,670,Checking status of localhost:27017
+2017-02-08 12:41:38,245,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1195.7 ms, state=CONNECTED}]
+2017-02-08 12:41:52,581,Checking status of localhost:27017
+2017-02-08 12:42:02,318,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1291.5 ms, state=CONNECTED}]
+2017-02-08 12:42:27,679,Checking status of localhost:27017
+2017-02-08 12:42:45,674,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1403.0 ms, state=CONNECTED}]
+2017-02-08 12:52:11,925,Slf4jLogger started
+2017-02-08 12:52:11,950,logger log1-Slf4jLogger started
+2017-02-08 12:52:11,961,Default Loggers started
+2017-02-08 12:52:12,225,Initializing AkkaSSLConfig extension...
+2017-02-08 12:52:12,254,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@68de22b5
+2017-02-08 12:52:12,452,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:52:12,701,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:52:12,865,Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2017-02-08 12:52:12,865,Checking status of localhost:27017
+2017-02-08 12:52:12,871,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1425283}
+2017-02-08 12:52:12,875,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.4 ms, state=CONNECTED}]
+2017-02-08 12:52:14,004,Resolving www.1point3acres.com before connecting
+2017-02-08 12:52:14,040,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#1682092982]
+2017-02-08 12:52:14,706,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:52:14,887,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:53:39,039,Checking status of localhost:27017
+2017-02-08 12:53:43,865,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=485.6 ms, state=CONNECTED}]
+2017-02-08 12:54:05,176,Slf4jLogger started
+2017-02-08 12:54:05,202,logger log1-Slf4jLogger started
+2017-02-08 12:54:05,212,Default Loggers started
+2017-02-08 12:54:05,737,Initializing AkkaSSLConfig extension...
+2017-02-08 12:54:05,754,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@75736b7f
+2017-02-08 12:54:06,015,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 12:54:06,260,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 12:54:06,436,Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2017-02-08 12:54:06,436,Checking status of localhost:27017
+2017-02-08 12:54:06,442,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1547006}
+2017-02-08 12:54:06,480,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.5 ms, state=CONNECTED}]
+2017-02-08 12:54:07,853,Resolving www.1point3acres.com before connecting
+2017-02-08 12:54:07,887,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-1393855109]
+2017-02-08 12:54:07,912,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 12:54:08,098,Connection established to [www.1point3acres.com:80]
+2017-02-08 12:55:23,841,Checking status of localhost:27017
+2017-02-08 12:56:06,583,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=7898.3 ms, state=CONNECTED}]
+2017-02-08 12:56:36,356,Checking status of localhost:27017
+2017-02-08 12:56:36,779,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=6364.4 ms, state=CONNECTED}]
+2017-02-08 13:07:07,948,Checking status of localhost:27017
+2017-02-08 13:07:08,255,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5095.8 ms, state=CONNECTED}]
+2017-02-08 13:07:27,366,Checking status of localhost:27017
+2017-02-08 13:07:27,880,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4076.8 ms, state=CONNECTED}]
+2017-02-08 13:07:38,003,Checking status of localhost:27017
+2017-02-08 13:07:41,092,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3656.0 ms, state=CONNECTED}]
+2017-02-08 13:08:33,686,Checking status of localhost:27017
+2017-02-08 13:08:34,438,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2929.5 ms, state=CONNECTED}]
+2017-02-08 13:08:44,609,Checking status of localhost:27017
+2017-02-08 13:08:48,015,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2797.0 ms, state=CONNECTED}]
+2017-02-08 13:10:50,857,Checking status of localhost:27017
+2017-02-08 13:10:51,660,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2393.1 ms, state=CONNECTED}]
+2017-02-08 13:13:33,618,Checking status of localhost:27017
+2017-02-08 13:13:38,116,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2588.0 ms, state=CONNECTED}]
+2017-02-08 13:13:56,988,Checking status of localhost:27017
+2017-02-08 13:13:57,744,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2075.3 ms, state=CONNECTED}]
+2017-02-08 13:14:11,913,Checking status of localhost:27017
+2017-02-08 13:14:11,934,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1664.4 ms, state=CONNECTED}]
+2017-02-08 13:14:39,587,Checking status of localhost:27017
+2017-02-08 13:14:47,165,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2847.0 ms, state=CONNECTED}]
+2017-02-08 13:15:19,138,Checking status of localhost:27017
+2017-02-08 13:15:19,688,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2281.7 ms, state=CONNECTED}]
+2017-02-08 13:15:34,520,Checking status of localhost:27017
+2017-02-08 13:15:37,372,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2315.0 ms, state=CONNECTED}]
+2017-02-08 13:15:49,514,Checking status of localhost:27017
+2017-02-08 13:15:55,402,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2260.0 ms, state=CONNECTED}]
+2017-02-08 13:16:07,216,Checking status of localhost:27017
+2017-02-08 13:16:09,502,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2058.7 ms, state=CONNECTED}]
+2017-02-08 13:16:23,080,Checking status of localhost:27017
+2017-02-08 13:16:25,672,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2047.3 ms, state=CONNECTED}]
+2017-02-08 13:17:57,702,Checking status of localhost:27017
+2017-02-08 13:17:58,555,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1803.9 ms, state=CONNECTED}]
+2017-02-08 13:18:19,649,Checking status of localhost:27017
+2017-02-08 13:18:20,189,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1447.5 ms, state=CONNECTED}]
+2017-02-08 13:18:30,412,Checking status of localhost:27017
+2017-02-08 13:18:34,330,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1618.9 ms, state=CONNECTED}]
+2017-02-08 13:18:45,176,Checking status of localhost:27017
+2017-02-08 13:18:49,228,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1877.4 ms, state=CONNECTED}]
+2017-02-08 13:21:55,927,Slf4jLogger started
+2017-02-08 13:21:55,969,logger log1-Slf4jLogger started
+2017-02-08 13:21:55,986,Default Loggers started
+2017-02-08 13:21:56,359,Initializing AkkaSSLConfig extension...
+2017-02-08 13:21:56,382,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@537cbef5
+2017-02-08 13:21:56,949,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 13:21:57,450,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 13:21:57,782,Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2017-02-08 13:21:57,782,Checking status of localhost:27017
+2017-02-08 13:21:57,790,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2009204}
+2017-02-08 13:21:57,811,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.0 ms, state=CONNECTED}]
+2017-02-08 13:21:59,480,Resolving www.1point3acres.com before connecting
+2017-02-08 13:21:59,543,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-742839734]
+2017-02-08 13:21:59,808,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 13:21:59,991,Connection established to [www.1point3acres.com:80]
+2017-02-08 13:22:08,034,Checking status of localhost:27017
+2017-02-08 13:26:16,127,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=49557.2 ms, state=CONNECTED}]
+2017-02-08 13:26:58,045,Slf4jLogger started
+2017-02-08 13:26:58,058,logger log1-Slf4jLogger started
+2017-02-08 13:26:58,063,Default Loggers started
+2017-02-08 13:26:58,190,Initializing AkkaSSLConfig extension...
+2017-02-08 13:26:58,195,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@7f4ae376
+2017-02-08 13:26:58,258,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 13:26:58,428,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 13:26:58,493,Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2017-02-08 13:26:58,494,Checking status of localhost:27017
+2017-02-08 13:26:58,496,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=964328}
+2017-02-08 13:26:58,498,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+2017-02-08 13:26:59,246,Resolving www.1point3acres.com before connecting
+2017-02-08 13:26:59,262,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#206459065]
+2017-02-08 13:26:59,293,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 13:26:59,477,Connection established to [www.1point3acres.com:80]
+2017-02-08 13:27:03,374,Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2017-02-08 13:27:03,388,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:34}] to server localhost:27017
+2017-02-08 13:27:03,414,Command execution completed with status true
+2017-02-08 13:27:03,418,Asynchronous insert completed
+2017-02-08 13:27:03,421,Closed connection [connectionId{localValue:2, serverValue:34}] to localhost:27017 because the pool has been closed.
+2017-02-08 13:27:03,421,Closing connection connectionId{localValue:2, serverValue:34}
+2017-02-08 13:27:03,423,Closing connection connectionId{localValue:1, serverValue:33}
+2017-02-08 13:27:03,433,shutting down: StandardOutLogger started
+2017-02-08 15:12:21,925,Slf4jLogger started
+2017-02-08 15:12:21,936,logger log1-Slf4jLogger started
+2017-02-08 15:12:21,940,Default Loggers started
+2017-02-08 15:12:22,025,Initializing AkkaSSLConfig extension...
+2017-02-08 15:12:22,030,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@41204a69
+2017-02-08 15:12:22,095,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:12:22,205,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:12:22,268,Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2017-02-08 15:12:22,268,Checking status of localhost:27017
+2017-02-08 15:12:22,270,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=754266}
+2017-02-08 15:12:22,271,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+2017-02-08 15:12:22,915,Resolving www.1point3acres.com before connecting
+2017-02-08 15:12:22,930,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#909611860]
+2017-02-08 15:12:23,130,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:12:23,310,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:12:25,757,Opened connection [connectionId{localValue:2, serverValue:36}] to localhost:27017
+2017-02-08 15:12:25,771,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:36}] to server localhost:27017
+2017-02-08 15:12:25,792,Command execution completed with status true
+2017-02-08 15:12:25,796,Asynchronous insert completed
+2017-02-08 15:12:25,798,Closed connection [connectionId{localValue:2, serverValue:36}] to localhost:27017 because the pool has been closed.
+2017-02-08 15:12:25,799,Closing connection connectionId{localValue:2, serverValue:36}
+2017-02-08 15:12:25,800,Closing connection connectionId{localValue:1, serverValue:35}
+2017-02-08 15:12:25,809,shutting down: StandardOutLogger started
+2017-02-08 15:14:13,734,Slf4jLogger started
+2017-02-08 15:14:13,748,logger log1-Slf4jLogger started
+2017-02-08 15:14:13,752,Default Loggers started
+2017-02-08 15:14:13,890,Initializing AkkaSSLConfig extension...
+2017-02-08 15:14:13,902,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@6f46c5d8
+2017-02-08 15:14:14,076,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:14:14,225,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:14:14,347,Opened connection [connectionId{localValue:1, serverValue:37}] to localhost:27017
+2017-02-08 15:14:14,347,Checking status of localhost:27017
+2017-02-08 15:14:14,350,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1010653}
+2017-02-08 15:14:14,361,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+2017-02-08 15:14:14,983,Resolving www.1point3acres.com before connecting
+2017-02-08 15:14:15,006,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#1320955666]
+2017-02-08 15:14:15,019,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:14:15,207,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:14:25,857,Checking status of localhost:27017
+2017-02-08 15:14:39,400,Slf4jLogger started
+2017-02-08 15:14:39,413,logger log1-Slf4jLogger started
+2017-02-08 15:14:39,417,Default Loggers started
+2017-02-08 15:14:39,551,Initializing AkkaSSLConfig extension...
+2017-02-08 15:14:39,557,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@33eb281e
+2017-02-08 15:14:39,616,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:14:39,773,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:14:39,859,Opened connection [connectionId{localValue:1, serverValue:38}] to localhost:27017
+2017-02-08 15:14:39,859,Checking status of localhost:27017
+2017-02-08 15:14:39,863,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1223995}
+2017-02-08 15:14:39,868,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+2017-02-08 15:14:40,821,Resolving www.1point3acres.com before connecting
+2017-02-08 15:14:40,841,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-1031280127]
+2017-02-08 15:14:40,855,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:14:41,087,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:14:43,415,Opened connection [connectionId{localValue:2, serverValue:39}] to localhost:27017
+2017-02-08 15:14:43,435,Asynchronously inserting 50 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:39}] to server localhost:27017
+2017-02-08 15:14:43,461,Command execution completed with status true
+2017-02-08 15:14:43,464,Asynchronous insert completed
+2017-02-08 15:14:43,468,Closed connection [connectionId{localValue:2, serverValue:39}] to localhost:27017 because the pool has been closed.
+2017-02-08 15:14:43,468,Closing connection connectionId{localValue:2, serverValue:39}
+2017-02-08 15:14:43,470,Closing connection connectionId{localValue:1, serverValue:38}
+2017-02-08 15:14:43,480,shutting down: StandardOutLogger started
+2017-02-08 15:15:31,691,Slf4jLogger started
+2017-02-08 15:15:31,701,logger log1-Slf4jLogger started
+2017-02-08 15:15:31,705,Default Loggers started
+2017-02-08 15:15:31,804,Initializing AkkaSSLConfig extension...
+2017-02-08 15:15:31,808,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@339e7385
+2017-02-08 15:15:31,880,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:15:32,085,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:15:32,147,Opened connection [connectionId{localValue:1, serverValue:40}] to localhost:27017
+2017-02-08 15:15:32,147,Checking status of localhost:27017
+2017-02-08 15:15:32,150,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=959936}
+2017-02-08 15:15:32,152,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+2017-02-08 15:15:32,837,Resolving www.1point3acres.com before connecting
+2017-02-08 15:15:32,855,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-1898080686]
+2017-02-08 15:15:33,748,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:15:33,931,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:15:36,406,Opened connection [connectionId{localValue:2, serverValue:41}] to localhost:27017
+2017-02-08 15:15:36,420,Asynchronously inserting 47 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:41}] to server localhost:27017
+2017-02-08 15:15:36,443,Command execution completed with status true
+2017-02-08 15:15:36,447,Asynchronous insert completed
+2017-02-08 15:15:36,450,Closed connection [connectionId{localValue:2, serverValue:41}] to localhost:27017 because the pool has been closed.
+2017-02-08 15:15:36,450,Closing connection connectionId{localValue:2, serverValue:41}
+2017-02-08 15:15:36,452,Closing connection connectionId{localValue:1, serverValue:40}
+2017-02-08 15:15:36,461,shutting down: StandardOutLogger started
+2017-02-08 15:29:12,369,Slf4jLogger started
+2017-02-08 15:29:12,381,logger log1-Slf4jLogger started
+2017-02-08 15:29:12,386,Default Loggers started
+2017-02-08 15:29:12,483,Initializing AkkaSSLConfig extension...
+2017-02-08 15:29:12,487,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@61d14dec
+2017-02-08 15:29:12,563,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:29:12,686,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:29:12,763,Opened connection [connectionId{localValue:1, serverValue:42}] to localhost:27017
+2017-02-08 15:29:12,763,Checking status of localhost:27017
+2017-02-08 15:29:12,765,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=862359}
+2017-02-08 15:29:12,768,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+2017-02-08 15:29:13,395,Resolving www.1point3acres.com before connecting
+2017-02-08 15:29:13,412,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-398470263]
+2017-02-08 15:29:13,650,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:29:13,835,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:29:17,439,Opened connection [connectionId{localValue:2, serverValue:43}] to localhost:27017
+2017-02-08 15:29:17,452,Asynchronously inserting 45 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:43}] to server localhost:27017
+2017-02-08 15:29:17,477,Command execution completed with status true
+2017-02-08 15:29:17,482,Asynchronous insert completed
+2017-02-08 15:29:17,484,Closed connection [connectionId{localValue:2, serverValue:43}] to localhost:27017 because the pool has been closed.
+2017-02-08 15:29:17,484,Closing connection connectionId{localValue:2, serverValue:43}
+2017-02-08 15:29:17,486,Closing connection connectionId{localValue:1, serverValue:42}
+2017-02-08 15:29:17,495,shutting down: StandardOutLogger started
+2017-02-08 15:29:53,487,Slf4jLogger started
+2017-02-08 15:29:53,496,logger log1-Slf4jLogger started
+2017-02-08 15:29:53,499,Default Loggers started
+2017-02-08 15:29:53,599,Initializing AkkaSSLConfig extension...
+2017-02-08 15:29:53,609,buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@3c6f77b6
+2017-02-08 15:29:53,676,Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-02-08 15:29:53,809,Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2017-02-08 15:29:53,889,Opened connection [connectionId{localValue:1, serverValue:44}] to localhost:27017
+2017-02-08 15:29:53,889,Checking status of localhost:27017
+2017-02-08 15:29:53,892,Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 1]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1197673}
+2017-02-08 15:29:53,894,Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+2017-02-08 15:29:54,500,Resolving www.1point3acres.com before connecting
+2017-02-08 15:29:54,522,Resolution request for www.1point3acres.com from Actor[akka://Scraper/system/IO-TCP/selectors/$a/0#-644035636]
+2017-02-08 15:29:54,538,Attempting connection to [www.1point3acres.com/123.57.208.150:80]
+2017-02-08 15:29:54,841,Connection established to [www.1point3acres.com:80]
+2017-02-08 15:29:58,229,Opened connection [connectionId{localValue:2, serverValue:45}] to localhost:27017
+2017-02-08 15:29:58,242,Asynchronously inserting 45 documents into namespace AppManager.Bpplication on connection [connectionId{localValue:2, serverValue:45}] to server localhost:27017
+2017-02-08 15:29:58,264,Command execution completed with status true
+2017-02-08 15:29:58,268,Asynchronous insert completed
+2017-02-08 15:29:58,270,Closed connection [connectionId{localValue:2, serverValue:45}] to localhost:27017 because the pool has been closed.
+2017-02-08 15:29:58,271,Closing connection connectionId{localValue:2, serverValue:45}
+2017-02-08 15:29:58,273,Closing connection connectionId{localValue:1, serverValue:44}
+2017-02-08 15:29:58,282,shutting down: StandardOutLogger started
