@@ -1,3 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 project/
 target/
+log/
+metastore_db/
+derby.log
+spark-warehouse/
+src/main/java/
+src/main/scala-2.11/
+src/test/
